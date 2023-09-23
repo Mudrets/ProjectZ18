@@ -9,4 +9,12 @@ select{
     background-color: var(--head_color);
     border: 0px;
 }
+select{
+    &:active{
+        outline: 0;
+    }
+    &:focus{
+        outline: 0;
+    }
+}
 }

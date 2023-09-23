@@ -5,7 +5,12 @@ main{
         padding: 0 10px;
         border-radius: 5px;
         border: 0px;
-        
+        &:active{
+            outline: 0;
+        }
+        &:focus{
+            outline: 0;
+        }
     }
     .banner_img{
         position: relative;

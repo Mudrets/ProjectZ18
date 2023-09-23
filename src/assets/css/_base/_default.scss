@@ -18,6 +18,14 @@
         transition: all 0.3s;
         background-color: var(--button_orange_hover);
     }
+    &:active{
+        outline: 0;
+        transform: translateY(-1px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+    &:focus{
+        outline: 0;
+    }
 }
 .blue_b{
     -webkit-transition:all 0.3s;
@@ -29,6 +37,14 @@
     &:hover{
         transition: all 0.3s;
         background-color: var(--button_blue_hover);
+    }
+    &:active{
+        outline: 0;
+        transform: translateY(-1px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+    &:focus{
+        outline: 0;
     }
 }
 .bg_main_1{
