@@ -15,4 +15,18 @@ main{
     .writer_bg{
         background-color: #e6f7fe;
     }
+    .a_card{
+        &::after{
+            content: '';
+            background-image: url(../../../assets/img/arrow_ourSimple.png);
+            display: inline-block;
+            position: absolute;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 15px;
+            height: 350px;
+            left:270px ;
+            bottom: 10px;
+        }
+    }
 }
