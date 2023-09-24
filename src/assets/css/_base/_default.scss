@@ -6,6 +6,8 @@
     --button_blue_hover:#c0e9fc;
     --color_black:#323538;
     --color_gray:#656a70;
+    --color_l_gray:#e1e1e7;
+    --color_lime:#e2f55d;
 }
 .orange_b{
     -webkit-transition:all 0.3s;
@@ -61,7 +63,13 @@
 }
 .bg_main_4{
     background-color: var(--head_color);
-    background-image: url(../../../assets/img/bg_3.png);
+    background-image: url(../../../assets/img/bg_4.png);
+}
+.bg_main_5{
+    background-image: url(../../../assets/img/bg_5.png);
+    background-position: top;
+    background-repeat: repeat-x;
+    background-size: auto;
 }
 .st_img{
     
@@ -102,3 +110,10 @@
 .c_gray{
     color: var(--color_gray);
 }
+.c_orange{
+    color: var(--button_orange);
+}
+.c_lime{
+    color: var(--color_lime);
+}
+
