@@ -95,6 +95,16 @@
     justify-content: space-around;
     align-items: center;
 }
+.j_between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.j_end{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
 .h_orange:hover{
     color: var(--button_orange);
 }
